@@ -80,7 +80,6 @@ form {
 #search-box:focus {
   border-style: none;
   outline: none;
-  padding: 1.2em;
 }
 .btn-search {
   font-size: 1rem;
@@ -89,11 +88,11 @@ form {
   border-radius: 5px;
   border: 0px;
   padding: 0.5rem 0.9rem;
-  border:1px solid #f2f2f2;
+  border: 1px solid #f2f2f2;
 }
-.btn-search:hover{
-  border:1px solid #5f6368;
-  color:#222;
+.btn-search:hover {
+  border: 1px solid #5f6368;
+  color: #222;
 }
 main * {
   margin-bottom: 1rem;
