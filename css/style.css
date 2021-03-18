@@ -9,8 +9,8 @@
   justify-content: space-between;
 justify-items: center;
   height: 10vh;
-  background-color: #fed049;
   margin: 1rem;
+
 }
 
 #main {
@@ -33,11 +33,12 @@ justify-items: center;
 
 .line1 {
   height: fit-content;
-  border: 2px solid darkred;
+  border: 2px solid #453f3f;;
   /* border-radius: 50%; */
 }
 .nav-link,
 .co {
+  color:#212121;
   text-decoration: none;
   margin-right: 1rem;
 }
@@ -54,6 +55,7 @@ justify-items: center;
   background-color: aliceblue;
 }
 .sign-in{
-  background-color: cadetblue;
-  color: azure;
+  background-color: #4583ed;
+  color: #fff;
+  border-radius: 8%;
 }
