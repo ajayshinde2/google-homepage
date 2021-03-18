@@ -3,9 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* page layout */
 #header {
+  display: flex;
+  justify-content: space-between;
   height: 10vh;
   background-color: #fed049;
+  margin: 1rem;
 }
 
 #main {
@@ -15,4 +19,31 @@
 #footer {
   height: 10vh;
   background-color: #282846;
+}
+/* --------- */
+
+/* navbar style */
+.co {
+  display: grid;
+  grid-template-columns: repeat(3, min-content);
+  gap: 0.3rem;
+  grid-template-rows: repeat(6, min-content);
+}
+
+.line1 {
+  height: fit-content;
+  border: 2px solid darkred;
+  /* border-radius: 50%; */
+}
+.nav-link,
+.co {
+  text-decoration: none;
+  margin-right: 1rem;
+}
+.nav-item {
+  list-style: none;
+}
+#nav-left-grp,
+#nav-right-grp {
+  display: flex;
 }
